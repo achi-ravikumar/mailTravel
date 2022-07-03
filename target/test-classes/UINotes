@@ -1,0 +1,21 @@
+1: These scripts successfuly executed on Chrome, Safari, Firefox. Could not run on IE as I am using MAC so not able to run on IE.
+
+2: There are ways to run on IE (if you are using MAC) or ways to run on Safari (if you are using Windows).
+  a: Browser stack.
+  b: virtual machines
+  c: Sauce labs
+  d: Using Jenkins nodes/machines.
+
+3: Used different types of elements. Xpath, Id, Name, CSS. Even some places I can use ID but used XPath to show that we can use all types of elements.
+
+4: Used different types of Waits.
+
+5: Another approach to implement the framework is hooks implementation.
+   we can run using hooks.java and Browsers.java files. -> Commented out.
+
+6: To run UI. Add  -Dbrowser=chrome -Denv=prod  -> to run edit config -> Added Screenshot.
+    Right click on 'TestRunnerAPI' and select RUN.
+
+7: Report will be generated at Target ->cucumber-html-reports -> overview-features.html
+
+8: Added sample report in 'resources'

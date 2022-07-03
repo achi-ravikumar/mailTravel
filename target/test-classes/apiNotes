@@ -1,0 +1,10 @@
+1: Designed and executed 3 APIs. Create, Get and Delete APIs.
+
+2: Tests are sometimes are failing with 409 error code. Implemented retry logic in apiServices.java.
+Also we have another approach:
+We can implement in Try and Catch block either in apiServices.java or employeeApi.java file. I implemented in employeeApi.java file.
+I commented out the code.
+
+3: to run API. right click on 'TestRunnerAPI' and select RUN -> Screenshot added.
+
+4: Added sample report in 'resources'
